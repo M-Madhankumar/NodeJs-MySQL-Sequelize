@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-mysql-sequelize",
+  "version": "1.0.0",
+  "description": "NodeJs Rest APIs with Express, Sequelize & MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Madhankumar/NodeJs-MySQL-Sequelize.git"
+  },
+  "author": "Madhankumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Madhankumar/NodeJs-MySQL-Sequelize/issues"
+  },
+  "homepage": "https://github.com/M-Madhankumar/NodeJs-MySQL-Sequelize#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json-stringify": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.25.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.3",
+    "react-router-dom": "^5.1.2",
+    "sequelize": "^5.21.7",
+    "sequelize-sql": "0.0.6"
+  }
+}
