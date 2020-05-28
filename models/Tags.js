@@ -27,5 +27,8 @@ module.exports = db.sequelize.define(
                 key: "idmovie"
             }
         }
+    },
+    {
+        timestamps: false
     }
 );

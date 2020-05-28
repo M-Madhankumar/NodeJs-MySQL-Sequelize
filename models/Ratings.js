@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 const db = require("../util/db");
 
-module.exports = db.Sequelize.define(
+module.exports = db.sequelize.define(
     "ratings",
     {
         idratings: {
