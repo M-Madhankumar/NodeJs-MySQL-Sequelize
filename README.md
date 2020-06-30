@@ -27,6 +27,12 @@ Mysql Database with Four Tables
     * Raings
     * Tags
 ```
+## API Base Path
+```
+IP Address/api
+Example: http://localhost:3000/api/login
+```
+
 Sample Database structures and data given in the file 
 [DB](https://github.com/M-Madhankumar/NodeJs-MySQL-Sequelize/blob/master/MovieRating.sql)
 >Passwords for Password field in User table: movierating
